@@ -2,10 +2,6 @@
 # Node modules
 node_modules/
 
-# Build output
-dist/
-dist/**/*.map
-
 # Environment files
 .env
 .env.test
@@ -13,19 +9,11 @@ dist/**/*.map
 # OS metadata
 .DS_Store
 
+# Test and coverage reports
+coverage/
+
 # Package lock is tracked; do not ignore package-lock.json
-
-# Node / package artifacts
-node_modules/
-package-lock.json
-
-# Environment
-.env
-.env.test
-
-# Build / packaging
-dist/
-dist/**/*.map
+# dist/ is tracked and committed for GitHub Actions
 
 # Test and coverage
 coverage/
